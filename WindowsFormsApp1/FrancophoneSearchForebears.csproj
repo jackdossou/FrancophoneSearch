@@ -29,7 +29,7 @@
     <PublisherName>Dossou Consulting LLC</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>2022.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -69,10 +69,10 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>C474ADFC523433855BF91E429A3AFE5AB1A98566</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>AC28250846823AAF7630D3F9EC0D505612BB7381</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>FrancophoneSearchForebears_2_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>FrancophoneSearchForebears_3_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -149,6 +149,7 @@
     <None Include="AddressSearchForebears_TemporaryKey.pfx" />
     <None Include="FrancophoneSearchForebears_1_TemporaryKey.pfx" />
     <None Include="FrancophoneSearchForebears_2_TemporaryKey.pfx" />
+    <None Include="FrancophoneSearchForebears_3_TemporaryKey.pfx" />
     <None Include="FrancophoneSearchForebears_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />

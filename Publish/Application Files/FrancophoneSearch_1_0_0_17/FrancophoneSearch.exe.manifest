@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FrancophoneSearch.exe" version="1.0.0.17" publicKeyToken="c9271039f360b2cd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="Dossou Consulting LLC" asmv2:product="Francophone Search App" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FrancophoneSearch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FrancophoneSearch.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CsvHelper.dll" size="148480">
+      <assemblyIdentity name="CsvHelper" version="12.0.0.0" publicKeyToken="8C4959082BE5C823" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9fHrQlbOauRXhjggPe+HToUWy1U+Vufo/IoQtaoOP/w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.dll" size="1298432">
+      <assemblyIdentity name="EPPlus" version="4.5.3.2" publicKeyToken="EA159FDAA78159A1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wyzvvR6gUe068G5/ud1VhZimEvBCFkFAzYvnIqNRvGM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FrancophoneSearch.exe" size="40896">
+      <assemblyIdentity name="FrancophoneSearch" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TlPJWtwHAMEGYrWnn3wrpvF3wwq8cdwpdR7ttYyAOEM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.ValueTuple.dll" size="79200">
+      <assemblyIdentity name="System.ValueTuple" version="4.0.2.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>efrC6DVae7uU1A0l/g401c7fVCahdvIPHM1eBgbw8II=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FrancophoneSearch.exe.config" size="930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RQ+HjU7Yk5e++tmr+5pSqulpYnlyLT8Z8GcFMRrJjMY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Read Me.pdf" size="36828">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QADSWlodu6izrRpaWESodD9AJU5iq5dwbHaUInOK+gg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=JackDossou\Jack" issuerKeyHash="64ae1a2f166358d58a1c8405e16952c1aa4862d9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RXKivcxR7KmOWg+QKK1TNppKyfopGeDkJdx47HVz0MI=</DigestValue></Reference></SignedInfo><SignatureValue>RyvgIGoRCYx8eu+DH5zqADLoXt/QeHisTASsYAykqVlQcaJf7OVMaNbNd5AdRYB0cy3JZfH9Ppkq0q0k97V8NpfzwXd0asKanYxxyAJ7+jOp/EW0xiNWTnXkghG8felrXHinpawMLyVT5WrHyiJXqakSnsj3/hxiHdltJQDDtDo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zsoGm/9UIODacVt4fr6s2UmMw9WUnI8qHw1/un/Eqc2HCg46CeZ4J0+YEAw7lpJgjWkQpqWmxnvRZxC2sy7AverTlx2vqTqq+U/kXK+Dx2Db8rvnjau7sapfxVnR8OwP1L9GFDw1ekzRXSFD+Pliwd28Zktf4tCSuImLxcqrJDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c2d07375ec78dc25e4e01929fac94a9a3653ad28900f5a8ea9ec51ccbda27245" Description="" Url=""><as:assemblyIdentity name="FrancophoneSearch.exe" version="1.0.0.17" publicKeyToken="c9271039f360b2cd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JackDossou\Jack</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qYPokatKBJNwowM9pk9PZzIS/6qx+ND62+ghVJ4P33s=</DigestValue></Reference></SignedInfo><SignatureValue>wzBOb+lCjihF7XgslNAL2M0rNqr0MjvG8/4KY45eLBS6qePGD/2W64HlN23nNra/WT6FLC4pOZp9rF/J8GC4TH1bQbD/ERSGlX3+mOAwtaZsMI42ycwUbj/preDYHyiu3g5QKncU9YGPxONLXU+6ZPze9dqiFwb64XdpkHnbO80=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zsoGm/9UIODacVt4fr6s2UmMw9WUnI8qHw1/un/Eqc2HCg46CeZ4J0+YEAw7lpJgjWkQpqWmxnvRZxC2sy7AverTlx2vqTqq+U/kXK+Dx2Db8rvnjau7sapfxVnR8OwP1L9GFDw1ekzRXSFD+Pliwd28Zktf4tCSuImLxcqrJDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQHL2IVGEBurVIACijy0RDnjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASgBhAGMAawBEAG8AcwBzAG8AdQBcAEoAYQBjAGswHhcNMjAwMTAyMjE1MTEzWhcNMjEwMTAyMDM1MTEzWjApMScwJQYDVQQDHh4ASgBhAGMAawBEAG8AcwBzAG8AdQBcAEoAYQBjAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM7KBpv/VCDg2nFbeH6+rNlJjMPVlJyPKh8Nf7p/xKnNhwoOOgnmeCdPmBAMO5aSYI1pEKalpsZ70WcQtrMuwL3q05cdr6k6qvlP5Fyvg8dg2/K7542ru7GqX8VZ0fDsD9S/RhQ8NXpM0V0hQ/j5YsHdvGZLX+LQkriJi8XKqyQ1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAxcc24cwz2I9dUh/enGofsdQUptEiFak5TK68qr3pibevRB9z4QilDPKuM++o2MEugNtfhYlANbnHE9Rea0RY5zeG3CSTXeytjBEJOBiH5BkRjpkD39m9995cAe8MvUMxqZVdLv7ACTVIbIHV5jOcn4DwLwLz+Bvuek51UhtNdYc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

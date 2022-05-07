@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://app.francophoneSearch.com/|ftp://francophoneSearch.com/|ftp://francophoneSearch.dossouconsulting.com/|ftp://www.francophoneSearch.dossouconsulting.com/|ftp://ftp.francophoneSearch.dossouconsulting.com/</PublishUrlHistory>
+    <InstallUrlHistory>http://app.francophonesearch.com/|http://francophonesearch.com/|http://francophonesearch.dossouconsulting.com/|http://francophonesearch.dossouconsulting.com/publish.htm/|http://francophonesearch.dossouconsulting.com/publish/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://www.francophonesearch.com/|https://www.francophonesearch.dossouconsulting.com/|http://www.search.dossouconsulting.com/|https://dossouconsulting.com/addresssearch/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

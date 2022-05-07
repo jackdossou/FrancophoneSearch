@@ -4,7 +4,7 @@
     <PublishUrlHistory>C:\Users\Jack\source\repos\FrancophoneSearch\Publish\|ftp://app.francophoneSearch.com/|ftp://francophoneSearch.com/|ftp://francophoneSearch.dossouconsulting.com/|ftp://www.francophoneSearch.dossouconsulting.com/</PublishUrlHistory>
     <InstallUrlHistory>https://github.com/jackdossou/FrancophoneSearch/blob/main/Publish/|http://app.francophonesearch.com/|http://francophonesearch.com/|http://francophonesearch.dossouconsulting.com/|http://francophonesearch.dossouconsulting.com/publish.htm/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory>https://www.francophonesearch.com/|https://www.francophonesearch.dossouconsulting.com/|http://www.search.dossouconsulting.com/|https://dossouconsulting.com/addresssearch/</UpdateUrlHistory>
+    <UpdateUrlHistory>https://www.app.francophonesearch.com/|https://www.francophonesearch.com/|https://www.francophonesearch.dossouconsulting.com/|http://www.search.dossouconsulting.com/|https://dossouconsulting.com/addresssearch/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>

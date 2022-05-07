@@ -75,7 +75,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iSnb/UYkMqfXX/f7lrj6e0BT4vz0ANpriapuu9hQbgc=</dsig:DigestValue>
+        <dsig:DigestValue>hN6lEns2xHdI6qsfzlF6G2QLpfxAaS9bZjypQHnUu0k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -118,7 +118,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QloBrykM3TzvUZV3OepuUXITO17GvDCDePvPHj4DxIw=</dsig:DigestValue>
+      <dsig:DigestValue>BlqPHzZSC2YD549CODKiN7owY35ENuzrTH77t2Z84I4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Read Me.pdf" size="35699">

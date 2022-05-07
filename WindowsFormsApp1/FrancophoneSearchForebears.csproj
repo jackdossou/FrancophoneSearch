@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>ftp://app.francophoneSearch.com/</PublishUrl>
+    <PublishUrl>C:\Users\Jack\source\repos\FrancophoneSearch\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,13 +23,13 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://app.francophonesearch.com/</InstallUrl>
+    <InstallUrl>https://github.com/jackdossou/FrancophoneSearch/blob/main/Publish/</InstallUrl>
     <UpdateUrl>https://www.app.francophonesearch.com/</UpdateUrl>
     <ProductName>Francophone Search App</ProductName>
     <PublisherName>Dossou Consulting LLC</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>2021.3.30.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

@@ -40,7 +40,6 @@ C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\bin\Debug\CsvHelpe
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\bin\Debug\EPPlus.xml
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
-C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.AssemblyReference.cache
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.ResolveComReference.cache
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearch.PhoneSearchByAddress.resources
@@ -54,3 +53,4 @@ C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\Francoph
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.CopyComplete
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearch.exe
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearch.pdb
+C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.AssemblyReference.cache

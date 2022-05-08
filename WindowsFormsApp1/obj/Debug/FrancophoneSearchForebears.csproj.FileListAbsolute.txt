@@ -53,4 +53,3 @@ C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\Francoph
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.CopyComplete
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearch.exe
 C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearch.pdb
-C:\Users\Jack\source\repos\FrancophoneSearch\WindowsFormsApp1\obj\Debug\FrancophoneSearchForebears.csproj.AssemblyReference.cache

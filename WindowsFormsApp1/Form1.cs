@@ -356,6 +356,10 @@ namespace WindowsFormsApp1
 
         public string callTruePeopleSearch(string firstname, string lastname, string zipCode = "")
         {
+            if (string.IsNullOrEmpty(firstname) && string.IsNullOrEmpty(lastname) && string.IsNullOrEmpty(zipCode))
+            {
+                return string.Empty;
+            }
 
             string requestUrl = "https://www.fastpeoplesearch.com/name/{0}_{1}";
 
@@ -718,8 +722,8 @@ namespace WindowsFormsApp1
 
                     z = z + 1;
 
-                    richTextBox1.Text += Environment.NewLine + "Found " + FirstName + " " + LastName + " probably From " + Country + " at " + Address + " " + ApartmentNumber;
-                    progressLabel.Text  = "Found " + FirstName + " " + LastName + " probably From " + Country + " at " + Address + " " + ApartmentNumber;
+                    richTextBox1.Text += Environment.NewLine + Country + " - Found " + FirstName + " " + LastName + " probably From " + Country + " at " + Address + " " + ApartmentNumber;
+                    progressLabel.Text  = Country + " - Found " + FirstName + " " + LastName + " probably From " + Country + " at " + Address + " " + ApartmentNumber;
 
                     PreviousAddress = Address;
                     PreviousLastName = LastName;
@@ -1167,7 +1171,7 @@ namespace WindowsFormsApp1
 
                             foundFrancophone = foundFrancophone + 1;
 
-                        backgroundWorker1.ReportProgress(o, Environment.NewLine + "Found " + FirstName + " " + LastName + " at " + Address + " " + ApartmentNumber + " probably From " + Country );
+                        backgroundWorker1.ReportProgress(o, Environment.NewLine + Country + " - Found " + FirstName + " " + LastName + " at " + Address + " " + ApartmentNumber + " probably From " + Country );
                 
                         PreviousAddress = Address;
                             PreviousLastName = LastName;
